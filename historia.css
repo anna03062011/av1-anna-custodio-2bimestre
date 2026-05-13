@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: #bfbfbf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container{
+  width: 1200px;
+  height: 760px;
+  background: white;
+  border-radius: 30px;
+  display: flex;
+  overflow: hidden;
+}
+
+/* MENU LATERAL */
+
+.sidebar{
+  width: 33%;
+  padding: 40px;
+  background:
+  linear-gradient(rgba(255,255,255,0.75),
+  rgba(255,255,255,0.75)),
+  url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200');
+  
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar h1{
+  color: #b56a78;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+.texto-topo{
+  font-size: 12px;
+  color: #555;
+  line-height: 1.4;
+}
+
+.menu-lateral{
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin-top: 40px;
+}
+
+.menu-lateral a{
+  text-decoration: none;
+  color: #333;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.menu-lateral .ativo{
+  color: #b56a78;
+}
+
+.sidebar h2{
+  color: #8b4f5c;
+  font-size: 45px;
+}
+
+/* CONTEÚDO */
+
+.conteudo{
+  width: 67%;
+  padding: 35px 45px;
+}
+
+.topo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+  gap: 35px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.perfil{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* BARRA */
+
+.barra-pesquisa{
+  margin-top: 40px;
+  background: #9a5a67;
+  height: 55px;
+  border-radius: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* QUADRADO */
+
+.caixa-rosa{
+  width: 100%;
+  height: 380px;
+  background: #ba7682;
+  margin-top: 25px;
+}
+
+/* INFOS */
+
+.infos{
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.botoes{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.botoes button{
+  width: 180px;
+  height: 55px;
+  border: none;
+  border-radius: 40px;
+  background: #9a5a67;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.textos{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.textos p{
+  font-size: 15px;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* CAIXA FINAL */
+
+.caixa-final{
+  margin-top: 35px;
+  border: 4px solid #c8c8c8;
+  border-radius: 40px;
+  padding: 25px;
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+}
+
+.pontinhos{
+  text-align: center;
+  font-size: 30px;
+  color: #9a5a67;
+  margin-top: 10px;dsa
