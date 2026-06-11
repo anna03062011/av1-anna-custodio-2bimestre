@@ -1,3 +1,75 @@
+login {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #cf75bc, #eea4e4);
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgb(128, 14, 112);
+  width: 350px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(117, 57, 97, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.mensagem {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+label {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  color: #c983bf;
+  font-weight: bold;
+  right: 80px;
+}
+
+input {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #f82bee;
+  border-radius: 8px;
+  right: 100px;
+}
+
+button {
+  position: relative;
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #fe4fef;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  right: 100px;
+}
+
+button:hover {
+  background-color: #ff33ee;
+}
+
 inicio * {
   margin: 0;
   padding: 0;
@@ -376,6 +448,7 @@ fanart .caixa {
   position: absolute;
   top: -60px;
   right: -40px;
+  width: 30px;
   transform: rotate(8deg);
 }
 
@@ -383,6 +456,7 @@ fanart .caixa {
   position: absolute;
   top: 180px;
   right: -70px;
+  width: 30px;
   transform: rotate(12deg);
 }
 
@@ -390,25 +464,25 @@ fanart .caixa {
   position: absolute;
   top: 180px;
   right: -70px;
+  width: 30px;
   transform: rotate(12deg);
 }
 
 .fan4 {
   top: 180px;
   right: -70px;
-  transform: rotate(12deg);
+  width: 30px;
 }
 
 .fan5 {
-  top: 180px;
   right: -70px;
   width: 30px;
-  transform: rotate(12deg);
+  height: 30px;
 }
 
 .fan6 {
-  top: 180px;
+  margin: 40%;
   right: -70px;
   width: 30px;
-  transform: rotate(12deg);
+  height: 30px;
 }
