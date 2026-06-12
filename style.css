@@ -5,6 +5,15 @@ login {
   font-family: Arial, sans-serif;
 }
 
+#titulo-login {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  z-index: 1;
+  text-transform: uppercase;
+  color: #952f99;
+  font-size: 48px;
+}
 body {
   background: linear-gradient(135deg, #cf75bc, #eea4e4);
   height: 10vh;
@@ -39,17 +48,17 @@ label {
   margin-top: 10px;
   color: #c983bf;
   font-weight: bold;
-  right: 80px;
+  margin-left: 100px;
 }
 
 input {
   position: relative;
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
+  width: 300px;
+  padding: 20px;
+  margin-top: 10px;
   border: 1px solid #f82bee;
   border-radius: 8px;
-  right: 100px;
+  margin-left: 100px;
 }
 
 button {
@@ -63,7 +72,7 @@ button {
   border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
-  right: 100px;
+  margin-right: 120px;
 }
 
 button:hover {
@@ -86,12 +95,16 @@ body {
 }
 
 .container {
-  width: 1200px;
-  height: 760px;
-  background: white;
+  position: relative;
+  width: 690px;
+  height: 560px;
+  background: rgb(255, 255, 255);
   border-radius: 30px;
   display: flex;
   overflow: hidden;
+  align-items: center;
+  right: 8%;
+  
 }
 
 .sidebar {
