@@ -8,7 +8,7 @@ login {
 #titulo-login {
   position: absolute;
   top: 10%;
-  left: 30%;
+  left: 37%;
   z-index: 1;
   text-transform: uppercase;
   color: #952f99;
@@ -53,12 +53,13 @@ label {
 
 input {
   position: relative;
-  width: 300px;
+  width: 500px;
   padding: 20px;
   margin-top: 10px;
   border: 1px solid #f82bee;
   border-radius: 8px;
-  margin-left: 100px;
+  margin-left: 60px;
+  margin-bottom: 20px;
 }
 
 button {
@@ -103,7 +104,6 @@ body {
   display: flex;
   overflow: hidden;
   align-items: center;
-  right: 8%;
   
 }
 
